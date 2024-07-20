@@ -20,6 +20,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             max-width: 90%;
+            width: 100%;
             box-sizing: border-box;
         }
         .container p {
@@ -38,6 +39,9 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: background-color 0.3s, color 0.3s;
             display: inline-block;
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 300px; /* Ancho máximo del botón */
         }
         .button:hover {
             background-color: #1e90ff; /* Color azul */
@@ -50,6 +54,7 @@
             .button {
                 padding: 10px 20px;
                 font-size: 1.2em; /* Ajuste del tamaño de fuente para móviles */
+                width: 100%;
             }
         }
     </style>
@@ -57,3 +62,7 @@
 <body>
     <div class="container">
         <p>La opción más rápida</p>
+        <a href="https://track.adtraction.com/t/t?a=1497931818&as=1889896122&t=2&tk=1" class="button" target="_blank">Solicitar aquí</a>
+    </div>
+</body>
+</html>
